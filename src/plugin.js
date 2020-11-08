@@ -324,7 +324,7 @@ class vttThumbnailsPlugin {
     return {
       x: splitCoords[0],
       y: splitCoords[1],
-      w: splitCoords[2],
+      w: splitCoords[2] - 2, // youtube storyboard specific
       h: splitCoords[3],
       image: imageUrl
     }
